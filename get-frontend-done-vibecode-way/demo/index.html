@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill demo — Button & Card (get-frontend-done-vibecode-way)</title>
+  <style>
+    :root { --card-border: #e2e8f0; --card-bg: #fff; --btn-bg: #3b82f6; --btn-text: #fff; }
+    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; }
+    .card { border: 1px solid var(--card-border); border-radius: 8px; background: var(--card-bg); padding: 1.25rem; margin-bottom: 1rem; }
+    .card h2 { margin: 0 0 0.5rem; font-size: 1.125rem; }
+    .card p { margin: 0; color: #64748b; font-size: 0.875rem; }
+    .button { display: inline-block; padding: 0.5rem 1rem; background: var(--btn-bg); color: var(--btn-text); border: none; border-radius: 6px; cursor: pointer; font-size: 0.875rem; }
+    .button:hover { filter: brightness(1.05); }
+    .button:focus { outline: 2px solid var(--btn-bg); outline-offset: 2px; }
+    .skip-link { position: absolute; top: -2.5rem; left: 0.5rem; padding: 0.5rem 1rem; background: #000; color: #fff; border-radius: 4px; z-index: 100; }
+    .skip-link:focus { top: 0.5rem; }
+  </style>
+</head>
+<body>
+  <!-- Skip link: for keyboard users (per skill / references/components.md Visually hidden / Skip link) -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header>
+    <h1>get-frontend-done-vibecode-way — demo</h1>
+    <p>Built using the skill: Select (Button, Card) → Implement (semantics, a11y) → Verify.</p>
+  </header>
+
+  <main id="main">
+    <!-- Card: container for a single entity (per references/components.md — contact, article, task) -->
+    <article class="card" aria-labelledby="card1-title">
+      <h2 id="card1-title">Component Gallery</h2>
+      <p>60 components, 95+ design systems, 2,676 examples. Reference: <a href="https://component.gallery">component.gallery</a>.</p>
+      <!-- Button: triggers an action (per references/components.md) -->
+      <button type="button" class="button" onclick="alert('Button works — skill demo.')">Open gallery</button>
+    </article>
+
+    <article class="card" aria-labelledby="card2-title">
+      <h2 id="card2-title">Skill workflow</h2>
+      <p>Select → Implement → Verify → Iterate. Use /simplify after implement; /batch for migrations.</p>
+      <button type="button" class="button">Learn more</button>
+    </article>
+  </main>
+
+  <footer>
+    <p><small>Demo generated using get-frontend-done-vibecode-way skill. Attribution: <a href="https://github.com/inbn/component-gallery">inbn/component-gallery</a>.</small></p>
+  </footer>
+</body>
+</html>

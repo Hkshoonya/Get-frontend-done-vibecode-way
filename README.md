@@ -101,6 +101,9 @@ Full install options (including symlink and workspace paths) are in **get-fronte
 ├── .gitignore
 └── get-frontend-done-vibecode-way/     # The skill (copy or install this folder)
     ├── SKILL.md                        # Main skill: loop, memory, /simplify, /batch, GSD, Install
+    ├── demo/                           # Test-and-use demo (Button, Card, Skip link)
+    │   ├── index.html
+    │   └── README.md
     ├── references/
     │   ├── components.md               # 60 components (snapshot)
     │   └── design-systems.md           # Curated design systems (snapshot)
