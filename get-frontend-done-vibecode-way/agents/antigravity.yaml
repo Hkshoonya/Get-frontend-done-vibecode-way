@@ -1,0 +1,6 @@
+# Antigravity (Google) — UI metadata for skill discovery
+# Antigravity discovers skills from ~/.gemini/antigravity/skills/ or .agent/skills/; this file provides display and default prompt.
+
+display_name: Get frontend done (vibecode way)
+short_description: Front-end UI skill grounded in The Component Gallery; feedback loop, memory, /simplify, /batch, GSD-ready.
+default_prompt: Use the get-frontend-done-vibecode-way skill: Select component(s) from Component Gallery or references, Implement with semantics and accessibility, optionally /simplify; Verify; Iterate and optionally update Claude memory. For migrations use /batch.

@@ -65,7 +65,7 @@ flowchart TB
 |-------|----------|
 | **SKILL.md** | When to use, feedback loop, GSD integration, Claude memory (surgical), /simplify & /batch, Install, quick ref |
 | **references/** | Snapshot of 60 components and curated design systems (date + refresh note) |
-| **agents/** | Codex UI metadata (display name, short description, default prompt) |
+| **agents/** | Per-tool UI metadata: Codex, Claude, Cursor, Gemini CLI, Antigravity (see `agents/README.md`) |
 | **scripts/** | Optional: open component.gallery or print URLs |
 
 ---
@@ -105,7 +105,12 @@ Full install options (including symlink and workspace paths) are in **get-fronte
     │   ├── components.md               # 60 components (snapshot)
     │   └── design-systems.md           # Curated design systems (snapshot)
     ├── agents/
-    │   └── openai.yaml                 # Codex UI metadata
+    │   ├── README.md                   # Per-tool metadata overview
+    │   ├── openai.yaml                 # Codex
+    │   ├── claude.yaml                 # Claude Code
+    │   ├── cursor.yaml                 # Cursor
+    │   ├── gemini.yaml                 # Gemini CLI
+    │   └── antigravity.yaml            # Antigravity
     └── scripts/
         └── open-gallery.js             # Open component.gallery or print URLs
 ```
