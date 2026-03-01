@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Component Gallery (reference)
+    url: https://component.gallery
+    about: Live reference for components and design systems
+  - name: inbn/component-gallery
+    url: https://github.com/inbn/component-gallery
+    about: Source project we attribute and reference

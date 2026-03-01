@@ -1,6 +1,12 @@
 # Get frontend done — vibecode way
 
+[![GitHub stars](https://img.shields.io/github/stars/Hkshoonya/Get-frontend-done-vibecode-way?style=flat-square)](https://github.com/Hkshoonya/Get-frontend-done-vibecode-way/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Hkshoonya/Get-frontend-done-vibecode-way?style=flat-square)](https://github.com/Hkshoonya/Get-frontend-done-vibecode-way/network)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
+
 **A CLI-installable AI skill for front-end design and UI**, grounded in [The Component Gallery](https://component.gallery/) — 60 components, 95+ design systems, 2,676 examples. Use it with **Claude**, **Codex**, **Antigravity**, **Gemini CLI**, or any skill-capable agent to build and verify interfaces in a consistent, feedback-loop way.
+
+**PRs and issues welcome** — see [CONTRIBUTING.md](CONTRIBUTING.md). Star the repo if it helps you; it helps others discover it.
 
 ---
 
@@ -97,8 +103,12 @@ Full install options (including symlink and workspace paths) are in **get-fronte
 
 ```
 .
-├── README.md                           # This file — description, architecture, install
+├── README.md                           # This file — description, architecture, install, contributing
+├── CONTRIBUTING.md                     # How to open PRs and issues
 ├── .gitignore
+├── .github/
+│   ├── PULL_REQUEST_TEMPLATE.md       # PR template
+│   └── ISSUE_TEMPLATE/                 # Bug report, feature request
 └── get-frontend-done-vibecode-way/     # The skill (copy or install this folder)
     ├── SKILL.md                        # Main skill: loop, memory, /simplify, /batch, GSD, Install
     ├── demo/                           # Test-and-use demo (Button, Card, Skip link)
@@ -119,6 +129,14 @@ Full install options (including symlink and workspace paths) are in **get-fronte
 ```
 
 ---
+
+## Contributing and making it famous
+
+- **Open a PR** — Fixes, new references, demo improvements, or docs. See [CONTRIBUTING.md](CONTRIBUTING.md) and the [PR template](.github/PULL_REQUEST_TEMPLATE.md).
+- **Open an issue** — Bug or feature idea? Use [Issues](https://github.com/Hkshoonya/Get-frontend-done-vibecode-way/issues); templates are provided.
+- **Star the repo** — Stars help others find the skill on GitHub.
+- **Share** — Tweet, blog, or add to a list (e.g. “AI coding skills”, “Component Gallery”, “Claude / Cursor / Gemini skills”). The skill follows the [SKILL.md / Agent Skills](https://agentskills.io) format used by Claude Code, Cursor, Codex, Gemini CLI, and more.
+- **Add topics on GitHub** — On the repo page, click the gear next to “About” and add topics such as: `skill`, `component-gallery`, `claude`, `cursor`, `codex`, `gemini`, `antigravity`, `design-systems`, `ui-components`, `frontend`, `accessibility`.
 
 ## Links
 
