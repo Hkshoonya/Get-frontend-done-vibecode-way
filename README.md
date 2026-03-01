@@ -132,10 +132,11 @@ Full install options (including symlink and workspace paths) are in **get-fronte
 
 ## Contributing and making it famous
 
+- **First-time repo setup** — Add topics and labels so the repo is discoverable and issue templates work: see [.github/SETUP-GITHUB.md](.github/SETUP-GITHUB.md).
 - **Open a PR** — Fixes, new references, demo improvements, or docs. See [CONTRIBUTING.md](CONTRIBUTING.md) and the [PR template](.github/PULL_REQUEST_TEMPLATE.md).
 - **Open an issue** — Bug or feature idea? Use [Issues](https://github.com/Hkshoonya/Get-frontend-done-vibecode-way/issues); templates are provided.
 - **Star the repo** — Stars help others find the skill on GitHub.
-- **Share** — Tweet, blog, or add to a list (e.g. “AI coding skills”, “Component Gallery”, “Claude / Cursor / Gemini skills”). The skill follows the [SKILL.md / Agent Skills](https://agentskills.io) format used by Claude Code, Cursor, Codex, Gemini CLI, and more.
+- **Share** — Use [SHARE.md](SHARE.md) for ready-made post copy and places to share. Tweet, blog, or add to a list (e.g. “AI coding skills”, “Component Gallery”, “Claude / Cursor / Gemini skills”). The skill follows the [SKILL.md / Agent Skills](https://agentskills.io) format used by Claude Code, Cursor, Codex, Gemini CLI, and more.
 - **Add topics on GitHub** — On the repo page, click the gear next to “About” and add topics such as: `skill`, `component-gallery`, `claude`, `cursor`, `codex`, `gemini`, `antigravity`, `design-systems`, `ui-components`, `frontend`, `accessibility`.
 
 ## Links
